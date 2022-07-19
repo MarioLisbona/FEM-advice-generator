@@ -79,6 +79,15 @@ body {
     box-shadow: 0 0 15px 0 var(--neon-green);
 }
 
+.divider {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
 /* Frontend Mentor Footer */
 .attribution {
     position: absolute;
