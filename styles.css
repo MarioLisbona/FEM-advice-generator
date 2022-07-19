@@ -41,10 +41,16 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: var(--grayish-blue);
-    border-radius: .3em;
+    background-color: var(--dark-grayish-blue);
+    border-radius: .6em;
     padding: 1.5em;
+}
 
+.advice-number {
+    color: var(--neon-green);
+    font-size: .5em;
+    letter-spacing: 3px;
+    text-transform: capitalize;
 }
 
 /* Frontend Mentor Footer */
