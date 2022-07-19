@@ -19,8 +19,9 @@
     margin: 0;
     padding: 0;
     font-family: 'Manrope', sans-serif;
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 }
+/* =================/RESETS========================*/
 
 body {
     font-size: 28px;
@@ -36,8 +37,15 @@ body {
 .advice-container {
     width: 90vw;
     max-width: 20em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--grayish-blue);
+    border-radius: .3em;
+    padding: 1.5em;
+
 }
-/* =================/RESETS========================*/
 
 /* Frontend Mentor Footer */
 .attribution {
