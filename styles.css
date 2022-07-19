@@ -44,6 +44,8 @@ body {
     background-color: var(--dark-grayish-blue);
     border-radius: .6em;
     padding: 1.5em;
+    position: relative;
+
 }
 
 .advice-number {
@@ -57,6 +59,20 @@ body {
 .advice-content {
     color: var(--light-cyan);
     text-align: center;
+}
+
+.get-advice {
+    padding: 1em;
+    background-color: var(--neon-green);
+    border-radius: 6999999px;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: -2em;
+    cursor: pointer;
 }
 
 /* Frontend Mentor Footer */
