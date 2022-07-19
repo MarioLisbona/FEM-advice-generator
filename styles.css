@@ -1,5 +1,13 @@
 /* =================ROOT========================*/
 :root {
+    /* Primary */
+    --light-cyan: hsl(193, 38%, 86%);
+    --neon-green: hsl(150, 100%, 66%);
+
+    /* Neutral */
+    --grayish-blue: hsl(217, 19%, 38%);
+    --dark-grayish-blue: hsl(217, 19%, 24%);
+    --dark-blue: hsl(218, 23%, 16%);
 
 }
 /* =================/ROOT========================*/
@@ -10,6 +18,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    font-weight: 800;
     /* outline: 1px solid black; */
 }
 /* =================/RESETS========================*/
