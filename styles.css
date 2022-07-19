@@ -75,6 +75,10 @@ body {
     cursor: pointer;
 }
 
+.get-advice:hover {
+    box-shadow: 0 0 15px 0 var(--neon-green);
+}
+
 /* Frontend Mentor Footer */
 .attribution {
     position: absolute;
