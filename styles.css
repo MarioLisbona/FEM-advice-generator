@@ -51,6 +51,12 @@ body {
     font-size: .5em;
     letter-spacing: 3px;
     text-transform: capitalize;
+    margin-bottom: 2em;
+}
+
+.advice-content {
+    color: var(--light-cyan);
+    text-align: center;
 }
 
 /* Frontend Mentor Footer */
