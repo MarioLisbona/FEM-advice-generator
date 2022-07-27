@@ -19,7 +19,9 @@ function getAdvice() {
     }).then(dataObj => { 
         const advice = dataObj.slip;
         console.log(advice);
-        advContent.textContent = advice.advice;
+        advContent.textContent = `"${advice.advice}"`;
         advNumber.textContent = `ADVICE #${advice.id}`;
+    }).catch(error => {
+        console.log(error);
     });
 }
